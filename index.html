@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Farol - Ligações</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+        }
+
+        /* Secção do topo */
+        .header {
+            background: #e9b45c;
+            height: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0 0 40px 40px;
+        }
+
+        /* Logótipo responsivo */
+        .header img {
+            width: 130px;
+            max-width: 35%;
+            background: white;
+            padding: 10px;
+            border-radius: 100px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        /* Conteúdo principal */
+        .container {
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 22px;
+            color: #333;
+            text-align: left;
+        }
+
+        /* Cartões responsivos */
+        .link-card {
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transition: transform 0.15s ease;
+        }
+
+        .link-card:hover {
+            transform: scale(1.02);
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .left img {
+            width: 40px;
+        }
+
+        .arrow {
+            font-size: 22px;
+            color: #777;
+        }
+
+        /* Responsividade adicional */
+        @media (max-width: 480px) {
+            .header {
+                height: 150px;
+            }
+
+            .header img {
+                width: 110px;
+                padding: 8px;
+            }
+
+            h2 {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .link-card {
+                padding: 13px;
+            }
+
+            .left img {
+                width: 36px;
+            }
+
+            .arrow {
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .header {
+                height: 130px;
+            }
+
+            .header img {
+                width: 95px;
+            }
+
+            .left img {
+                width: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Topo com logótipo -->
+    <div class="header">
+        <img src="WhatsApp Image 2025-10-01 at 08.57.57.jpeg" alt="O Farol">
+    </div>
+
+    <div class="container">
+        <h2>Conheça-nos</h2>
+
+        <!-- Instagram -->
+        <a class="link-card" href="https://www.instagram.com/ofarol.miba?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
+            <div class="left">
+                <img src="transferir.jfif" alt="Instagram">
+                <span>Instagram</span>
+            </div>
+            <span class="arrow">→</span>
+        </a>
+
+        <!-- WhatsApp -->
+        <a class="link-card" href="https://wa.me/351966946424" target="_blank">
+            <div class="left">
+                <img src="WhatsApp.svg.webp" alt="WhatsApp">
+                <span>WhatsApp</span>
+            </div>
+            <span class="arrow">→</span>
+        </a>
+
+        <!-- Facebook -->
+        <a class="link-card" href="https://www.facebook.com/profile.php?id=61581680736449" target="_blank">
+            <div class="left">
+                <img src="2023_Facebook_icon.svg.webp" alt="Facebook">
+                <span>Facebook</span>
+            </div>
+            <span class="arrow">→</span>
+        </a>
+
+        <!-- YouTube -->
+        <a class="link-card" href="https://www.youtube.com/@ofarol.miba25" target="_blank">
+            <div class="left">
+                <img src="Youtube_logo.png" alt="YouTube">
+                <span>YouTube</span>
+            </div>
+            <span class="arrow">→</span>
+        </a>
+
+    </div>
+
+</body>
+</html>
